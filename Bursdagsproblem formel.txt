@@ -1,0 +1,21 @@
+Hva er s
+(math.factorial(365))/(math.factorial(365-22) * 365**22)	= 0.5243046923374499
+1 - (math.factorial(365))/(math.factorial(365-22) * 365**22)	= 0.4756953076625501
+
+
+-------------------------------------------------------------------------------------
+
+På et hotell med 9 etasjer er det en heis. 4 personer går samtidig inn i heisen i første etasje. Vi antar at personene forlater heisen uavhengig av hverandre, samt at sannsynlighetene for at en bestemt person skal gå av i henholdsvis 2., 3., ..., 8. eller 9. etasje er like store. Ingen av personene går ut av heisen i første etasje.
+
+
+a) 
+Hva er sannsynligheten for at de 4 personene går av i hver sin etasje? Oppgi svaret som et desimaltall med tre desimaler, for eksempel 0.053 eller 0.125.
+				
+					(math.factorial(8))/(math.factorial(8-4) * 8**4)		= 0.41015625
+
+
+b)
+Hva er sannsynligheten for at minst 2 av de 4 går av i samme etasje? Oppgi svaret som et desimaltall med tre desimaler, for eksempel 0.053 eller 0.125
+
+					1 - (math.factorial(8))/(math.factorial(8-4) * 8**4)		= 0.58984375
+
